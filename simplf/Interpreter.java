@@ -8,6 +8,7 @@ class Interpreter implements Expr.Visitor<Object>, Stmt.Visitor<Object> {
     public Environment globals = new Environment();
     private Environment environment = globals;
 
+    
     Interpreter() {}
 
     public void interpret(List<Stmt> stmts) {
