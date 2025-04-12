@@ -15,6 +15,7 @@ import org.antlr.v4.runtime.CommonTokenStream;
 import simplf.parser.simplfLexer;
 import simplf.parser.simplfParser;
 
+
 public class Simplf {
     static boolean hadError = false;
     static boolean hadRuntimeError = false;
