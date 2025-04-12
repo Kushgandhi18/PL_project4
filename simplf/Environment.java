@@ -14,6 +14,7 @@ class Environment {
         this.enclosing = enclosing;
     }
 
+    
     Environment(AssocList assocList, Environment enclosing) {
         this.assocList = assocList;
         this.enclosing = enclosing;
